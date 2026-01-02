@@ -1404,3 +1404,6 @@ background: #f5f7fb;
     box-shadow: none;
   }
 }
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+}
