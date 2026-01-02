@@ -1377,3 +1377,20 @@ background: #f5f7fb;
 .dark .client-review,.dark .client-review h3 {
   color: #000 !important;
 }
+@media (max-width: 991px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 9999;
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 991px) {
+  .navbar-collapse.show {
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+}
